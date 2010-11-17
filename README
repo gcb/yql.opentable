@@ -1,0 +1,7 @@
+several YQL utilities table.
+
+- text.concat
+
+  Similtar to text.text from Tom Hughes-Croucher, but returns the data in an attribute instead of a simple element, that way you can use the results in other YQL queries, such as query.multiquery, or another text.text
+
+
